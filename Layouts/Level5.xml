@@ -1823,8 +1823,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>501.347442627</x>
-                        <y>218.304641724</y>
+                        <x>495.882965088</x>
+                        <y>219.67024231</y>
                         <z>0</z>
                         <width>31.162841797</width>
                         <height>9.032592773</height>
@@ -2366,8 +2366,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>528.667724609</x>
-                        <y>289.338165283</y>
+                        <x>530.71661377</x>
+                        <y>263.364196777</y>
                         <z>0</z>
                         <width>34</width>
                         <height>33</height>
@@ -2388,8 +2388,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>788.896179199</x>
-                        <y>290.704315186</y>
+                        <x>792.992919922</x>
+                        <y>270.194824219</y>
                         <z>0</z>
                         <width>18.34479332</width>
                         <height>18.34479332</height>
@@ -2410,11 +2410,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>458.316986084</x>
-                        <y>202.596084595</y>
+                        <x>448.763885498</x>
+                        <y>213.310409546</y>
                         <z>0</z>
-                        <width>61.910194397</width>
-                        <height>15.874409676</height>
+                        <width>48.786060333</width>
+                        <height>12.509246826</height>
                         <depth>0</depth>
                         <hotspotX>0.512820542</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -4288,6 +4288,28 @@
                         <depth>0</depth>
                         <hotspotX>0.504000008</hotspotX>
                         <hotspotY>0.004</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="DalleEgg" uid="369">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>169.743682861</x>
+                        <y>209.987792969</y>
+                        <z>0</z>
+                        <width>39</width>
+                        <height>10</height>
+                        <depth>0</depth>
+                        <hotspotX>0.512820542</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

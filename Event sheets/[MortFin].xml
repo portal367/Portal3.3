@@ -35,7 +35,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-21" name="Reset global variables" sid="786798697982783" type="System" />
+                        <action disabled="1" id="-21" name="Reset global variables" sid="786798697982783" type="System" />
                     </actions>
                 </event-block>
                 <event-block sid="411411710348710">
@@ -44,7 +44,7 @@
                     </conditions>
                     <actions>
                         <action id="-26" name="Restart layout" sid="180767823613394" type="System" />
-                        <action id="-21" name="Reset global variables" sid="217036195643752" type="System" />
+                        <action disabled="1" id="-21" name="Reset global variables" sid="217036195643752" type="System" />
                     </actions>
                 </event-block>
             </sub-events>

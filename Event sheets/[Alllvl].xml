@@ -93,5 +93,13 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="752102676945256">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="917014964612629" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
     </events>
 </c2eventsheet>

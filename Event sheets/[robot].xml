@@ -12,7 +12,7 @@
             <actions>
                 <action id="-9" name="Destroy" sid="722066394217182" type="Balle" />
                 <action id="-26" name="Restart layout" sid="837409381334842" type="System" />
-                <action id="-21" name="Reset global variables" sid="432249128051089" type="System" />
+                <action disabled="1" id="-21" name="Reset global variables" sid="432249128051089" type="System" />
             </actions>
         </event-block>
         <event-block sid="101343590395758">
@@ -32,6 +32,20 @@
             <actions>
                 <action behavior="Turret" id="1" name="Add object to target" sid="212190317109533" type="Ennemi">
                     <param id="0" name="Target">Ciblerobot</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="804459493218877">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="967106870366382" type="System">
+                    <param id="0" name="Interval (seconds)">0.5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="326233161627800" type="Ennemi">
+                    <param id="0" name="Object">Balle</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">1</param>
                 </action>
             </actions>
         </event-block>

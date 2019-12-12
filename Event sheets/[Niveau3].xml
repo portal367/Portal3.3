@@ -60,5 +60,18 @@
                 <action id="-9" name="Destroy" sid="381341428711615" type="Tirorangehorizontal" />
             </actions>
         </event-block>
+        <event-block sid="405294864380454">
+            <conditions>
+                <condition id="4" name="On finished" sid="157909744254539" type="PorteFin">
+                    <param id="0" name="Animation">&quot;OuverturePorte&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action disabled="1" id="-21" name="Reset global variables" sid="540048625199134" type="System" />
+                <action id="-2" name="Go to layout" sid="965427360268615" type="System">
+                    <param id="0" name="Layout">Level4</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
