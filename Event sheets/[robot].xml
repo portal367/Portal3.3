@@ -3,16 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>[robot]</name>
     <events>
-        <event-block sid="380382616151501">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="431721018504513" type="System" />
-            </conditions>
-            <actions>
-                <action behavior="Turret" id="0" name="Acquire target" sid="212190317109533" type="Ennemi">
-                    <param id="0" name="Target">Ciblerobot</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="150249378332006">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="661628053217197" type="Balle">
@@ -22,6 +12,7 @@
             <actions>
                 <action id="-9" name="Destroy" sid="722066394217182" type="Balle" />
                 <action id="-26" name="Restart layout" sid="837409381334842" type="System" />
+                <action id="-21" name="Reset global variables" sid="432249128051089" type="System" />
             </actions>
         </event-block>
         <event-block sid="101343590395758">
@@ -34,34 +25,13 @@
                 <action id="-9" name="Destroy" sid="742955293220164" type="Balle" />
             </actions>
         </event-block>
-        <event-block sid="360476531022732">
+        <event-block sid="380382616151501">
             <conditions>
-                <condition id="-6" name="Every X seconds" sid="736714419653397" type="System">
-                    <param id="0" name="Interval (seconds)">0.2</param>
-                </condition>
+                <condition id="-2" name="On start of layout" sid="431721018504513" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Spawn another object" sid="780391815687974" type="Ennemi">
-                    <param id="0" name="Object">Balle</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="Image point">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="597971581027912">
-            <conditions>
-                <condition behavior="Turret" id="0" name="Has target" sid="822557373306156" type="Ennemi" />
-            </conditions>
-            <actions />
-        </event-block>
-        <event-block sid="676205271801825">
-            <conditions>
-                <condition id="-18" name="On created" sid="267671027546631" type="Balle" />
-            </conditions>
-            <actions>
-                <action id="-22" name="Set angle toward position" sid="842257956886450" type="Balle">
-                    <param id="0" name="X">Ciblerobot.X</param>
-                    <param id="1" name="Y">Ciblerobot.Y</param>
+                <action behavior="Turret" id="1" name="Add object to target" sid="212190317109533" type="Ennemi">
+                    <param id="0" name="Target">Ciblerobot</param>
                 </action>
             </actions>
         </event-block>
