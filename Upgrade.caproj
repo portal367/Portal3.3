@@ -487,14 +487,6 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\jerem\OneDrive\Bureau\Défis TD\GOD OF SOUND\portal3\sprite\level3.jpg" />
         </object-type>
-        <object-type name="Sprite2" sid="749955429679992">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="787953434206877" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jerem\OneDrive\Bureau\Défis TD\GOD OF SOUND\portal3\sprite\level3.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Tilemap" sid="216296909810367">
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\jerem\OneDrive\Bureau\Défis TD\GOD OF SOUND\portal3\sprite\level3.jpg" />
@@ -509,7 +501,7 @@
                 </tile>
             </tiles>
         </object-type>
-        <object-type name="Sprite5" sid="877423017116138">
+        <object-type name="Backgroundlvl3" sid="877423017116138">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="203897492343735" speed="5">
