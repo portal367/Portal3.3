@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>[Niveau3]</name>
+    <events>
+        <include>[Méca Portail]</include>
+        <include>[MortFin]</include>
+        <include>[Alllvl]</include>
+        <event-block sid="696198528698980">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="595795284889753" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="744067668490414" type="Pistoletportailhorizontal">
+                    <param id="0" name="Pin to">Sandra</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="321123325389772">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="199839977762939" type="Sandra">
+                    <param id="0" name="Object">Dalle</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="417224494248611" type="Dalle">
+                    <param id="0" name="Animation">&quot;DalleAppuyée&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="434735438550888">
+            <conditions>
+                <condition id="4" name="On finished" sid="735205714748234" type="Dalle">
+                    <param id="0" name="Animation">&quot;DalleAppuyée&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="490992405152963" type="Coulissante" />
+            </actions>
+        </event-block>
+        <event-block sid="233022830172701">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="799105473852738" type="Tirbleuhorizontal">
+                    <param id="0" name="Object">contourdemapsolide</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="770375317915943" type="Tirbleuhorizontal" />
+            </actions>
+        </event-block>
+        <event-block sid="291116508161169">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="823757245124624" type="Tirorangehorizontal">
+                    <param id="0" name="Object">contourdemapsolide</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="381341428711615" type="Tirorangehorizontal" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
