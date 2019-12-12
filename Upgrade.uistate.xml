@@ -15,14 +15,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="11">Fin</layout>
         <event-sheet order="0">[Alllvl]</event-sheet>
         <event-sheet order="1">[MortFin]</event-sheet>
-        <event-sheet order="2">[Méca Portail]</event-sheet>
+        <event-sheet active="1" order="2">[Méca Portail]</event-sheet>
         <event-sheet order="3">[Niveau1]</event-sheet>
         <event-sheet order="4">[lNiveau2]</event-sheet>
         <event-sheet order="5">[Niveau3]</event-sheet>
         <event-sheet order="6">[Niveau4]</event-sheet>
         <event-sheet order="8">[robot]</event-sheet>
         <event-sheet order="9">[Niveau5]</event-sheet>
-        <event-sheet active="1" order="12">[Fin]</event-sheet>
+        <event-sheet order="12">[Fin]</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
