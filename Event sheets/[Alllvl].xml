@@ -101,5 +101,6 @@
             </conditions>
             <actions />
         </event-block>
+        <comment>W pour revenir au menu</comment>
     </events>
 </c2eventsheet>

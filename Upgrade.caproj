@@ -3,7 +3,7 @@
     <name>Upgrade</name>
     <description></description>
     <version>1.0.0.0</version>
-    <author></author>
+    <author>Alexandre Bohnert, Jeremy Maggioti</author>
     <author-email></author-email>
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
