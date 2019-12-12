@@ -17,6 +17,20 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="394848185164097">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="667840362880866" type="System">
+                    <param id="0" name="Interval (seconds)">0.5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="325874566646821" type="Balle">
+                    <param id="0" name="Object">Ennemi</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="969155007768679">
             <conditions>
                 <condition id="4" name="On finished" sid="302044205825779" type="PorteFin">
@@ -43,6 +57,28 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="128966187416610" type="Tirorangehorizontal" />
+            </actions>
+        </event-block>
+        <event-block sid="402671946150494">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="431551203394885" type="Balle">
+                    <param id="0" name="Object">Sandra</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="166832628223142" type="Balle" />
+                <action id="-26" name="Restart layout" sid="928934925035947" type="System" />
+                <action id="-26" name="Restart layout" sid="150573427057655" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="411934181305194">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="825989135450888" type="Balle">
+                    <param id="0" name="Object">contourdemapsolide</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="672979890736373" type="Balle" />
             </actions>
         </event-block>
     </events>

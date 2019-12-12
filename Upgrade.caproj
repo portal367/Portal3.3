@@ -22,6 +22,7 @@
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -579,11 +580,45 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="283897167293047">
+        <object-type name="Ennemi" sid="283897167293047">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Turret" sid="668047480793588">
+                    <behavior id="Turret" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="529591393395365" speed="5">
-                    <frame duration="1" hotspotX="-1.20588" hotspotY="0.969697" original-source="C:\Users\jerem\OneDrive\Bureau\Défis TD\GOD OF SOUND\portal3\sprite\tourellerouge.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="C:\Users\jerem\OneDrive\Bureau\Défis TD\GOD OF SOUND\portal3\sprite\tourellerouge.png">
+                        <image-point name="Imagepoint 1" x="0.676471" y="0.515152" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Balle" sid="823357382353145">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="953293172168508">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="741453866274068">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="833524985917834" speed="5">
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.5" original-source="C:\Users\Ploump\Desktop\Ludus\construct\superpowers-asset-packs-master\prehistoric-platformer\fx\effects\smoke.png">
+                        <collision-poly>
+                            <point x="0.121951" y="0.131579" />
+                            <point x="0.487805" y="0.0263158" />
+                            <point x="0.902439" y="0.105263" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853659" y="0.842105" />
+                            <point x="0.487805" y="1" />
+                            <point x="0.170732" y="0.815789" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>

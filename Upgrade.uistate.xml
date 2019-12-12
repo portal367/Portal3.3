@@ -70,6 +70,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Dalle/" />
         <folder expanded="1" path="animation-folder/Coulissante/" />
         <folder expanded="1" path="animation-folder/background4/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Ennemi/" />
+        <folder expanded="1" path="animation-folder/Balle/" />
     </folders-expanded>
 </c2uistate>
