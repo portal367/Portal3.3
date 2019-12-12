@@ -10,6 +10,7 @@
     <unique-id>2hvqrsg3zayf</unique-id>
     <saved-with-version>27200</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -744,6 +745,9 @@
         <object-type name="Gotomenu" sid="247606086880720">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Audio" sid="131420838897535">
+            <plugin id="Audio" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -769,9 +773,35 @@
     <global-instances>
         <global-instance type="Mouse" uid="50" />
         <global-instance type="Keyboard" uid="51" />
+        <global-instance type="Audio" uid="528">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
-    <music-folder />
+    <sounds-folder>
+        <file name="Découverte du centre.m4a" />
+        <file name="Découverte du centre.ogg" />
+        <file name="Portail bleu.ogg" />
+        <file name="Portail orange.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="Cara mia adio - Musique.ogg" />
+        <file name="Music of the sphere - Musique.ogg" />
+        <file name="Robots.ogg" />
+        <file name="Science is fun - Musique.ogg" />
+        <file name="Some assembly required.ogg" />
+        <file name="Want you gone - Musique.ogg" />
+    </music-folder>
     <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />

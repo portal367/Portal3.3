@@ -14,6 +14,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="10">Level5</layout>
         <layout order="11">Fin</layout>
         <layout order="13">Level1</layout>
+        <layout order="14">Level2</layout>
         <event-sheet active="1" order="0">[Alllvl]</event-sheet>
         <event-sheet order="1">[MortFin]</event-sheet>
         <event-sheet order="2">[Méca Portail]</event-sheet>

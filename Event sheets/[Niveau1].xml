@@ -23,6 +23,12 @@
                     <param id="0" name="Pin to">Sandra</param>
                     <param id="1" name="Mode">0</param>
                 </action>
+                <action id="0" name="Play" sid="269255099005010" type="Audio">
+                    <param id="0" name="Audio file">Découverte du centre</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="706741756334779">

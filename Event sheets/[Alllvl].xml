@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>[Alllvl]</name>
     <events>
+        <variable constant="0" name="Musique" sid="518810058737052" static="0" type="number">0</variable>
         <include>[robot]</include>
         <event-block sid="309887826108986">
             <conditions>
@@ -21,6 +22,10 @@
                 <action id="-22" name="Set angle toward position" sid="474510865251766" type="Pistoletportailhorizontal">
                     <param id="0" name="X">Sandra.X</param>
                     <param id="1" name="Y">Sandra.Y</param>
+                </action>
+                <action id="-9" name="Set value" sid="259265449851661" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Value">random(1,6)</param>
                 </action>
             </actions>
         </event-block>
@@ -102,5 +107,137 @@
             <actions />
         </event-block>
         <comment>W pour revenir au menu</comment>
+        <event-block sid="352692780103162">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="991468960391515" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="935135508962672" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="172755896029759" type="Audio">
+                    <param id="0" name="Audio file">Cara mia adio - Musique</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="253058239425739">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="687061553311180" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="893652842870010" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="969431705004350" type="Audio">
+                    <param id="0" name="Audio file">Music of the sphere - Musique</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="851321188053459">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="732187786751520" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="149002464405716" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="652182326042345" type="Audio">
+                    <param id="0" name="Audio file">Robots</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="563574793030830">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="697668658359483" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="118573823062178" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="248138430408704" type="Audio">
+                    <param id="0" name="Audio file">Science is fun - Musique</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="534858706605616">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="824534108019104" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="255344837438293" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="447252674290923" type="Audio">
+                    <param id="0" name="Audio file">Some assembly required</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="453191781837388">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="958589342647949" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="291178488791004" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="191349821134524" type="Audio">
+                    <param id="0" name="Audio file">Want you gone - Musique</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
