@@ -17,20 +17,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="394848185164097">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="667840362880866" type="System">
-                    <param id="0" name="Interval (seconds)">0.5</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="325874566646821" type="Balle">
-                    <param id="0" name="Object">Ennemi</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="Image point">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="969155007768679">
             <conditions>
                 <condition id="4" name="On finished" sid="302044205825779" type="PorteFin">
