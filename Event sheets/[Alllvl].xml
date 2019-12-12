@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>[Alllvl]</name>
     <events>
+        <include>[robot]</include>
         <event-block sid="309887826108986">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="270743062318343" type="System" />

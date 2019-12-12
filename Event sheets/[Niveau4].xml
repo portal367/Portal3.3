@@ -59,27 +59,5 @@
                 <action id="-9" name="Destroy" sid="128966187416610" type="Tirorangehorizontal" />
             </actions>
         </event-block>
-        <event-block sid="402671946150494">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="431551203394885" type="Balle">
-                    <param id="0" name="Object">Sandra</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="166832628223142" type="Balle" />
-                <action id="-26" name="Restart layout" sid="928934925035947" type="System" />
-                <action id="-26" name="Restart layout" sid="150573427057655" type="System" />
-            </actions>
-        </event-block>
-        <event-block sid="411934181305194">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="825989135450888" type="Balle">
-                    <param id="0" name="Object">contourdemapsolide</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="672979890736373" type="Balle" />
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

@@ -2102,13 +2102,35 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-45.919555664</x>
-                        <y>122.192733765</y>
+                        <x>299.68536377</x>
+                        <y>172.531112671</y>
                         <z>0</z>
                         <width>6.301574707</width>
                         <height>5.754501343</height>
                         <depth>0</depth>
                         <hotspotX>0.51219511</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Ciblerobot" uid="337">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>791.554382324</x>
+                        <y>175.783950806</y>
+                        <z>0</z>
+                        <width>18.34479332</width>
+                        <height>18.34479332</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

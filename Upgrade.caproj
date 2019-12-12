@@ -622,6 +622,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Ciblerobot" sid="607991722326571">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="342063482096932" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -638,6 +646,7 @@
         <event-sheet>[lNiveau2].xml</event-sheet>
         <event-sheet>[Niveau3].xml</event-sheet>
         <event-sheet>[Niveau4].xml</event-sheet>
+        <event-sheet>[robot].xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="50" />
