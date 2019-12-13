@@ -73,5 +73,13 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="717670787925507">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="847602573260415" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="153220786436281" type="Audio" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

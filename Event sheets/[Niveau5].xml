@@ -69,5 +69,13 @@
                 <action id="-9" name="Destroy" sid="321628220723362" type="Ennemi" />
             </actions>
         </event-block>
+        <event-block sid="285648981102685">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="504074303006129" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="400102007916140" type="Audio" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -25,7 +25,7 @@
                 </action>
                 <action id="-9" name="Set value" sid="259265449851661" type="System">
                     <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Value">random(1,6)</param>
+                    <param id="1" name="Value">int(random(1,6))</param>
                 </action>
             </actions>
         </event-block>
@@ -111,14 +111,10 @@
             <conditions>
                 <condition id="-14" name="Compare variable" sid="991468960391515" type="System">
                     <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Comparison">3</param>
+                    <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
-                <condition id="-14" name="Compare variable" sid="935135508962672" type="System">
-                    <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Comparison">5</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
+                <condition id="-4" name="Trigger once while true" sid="850600037211307" type="System" />
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="172755896029759" type="Audio">
@@ -133,14 +129,10 @@
             <conditions>
                 <condition id="-14" name="Compare variable" sid="687061553311180" type="System">
                     <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Comparison">3</param>
+                    <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">2</param>
                 </condition>
-                <condition id="-14" name="Compare variable" sid="893652842870010" type="System">
-                    <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
+                <condition id="-4" name="Trigger once while true" sid="545584598851655" type="System" />
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="969431705004350" type="Audio">
@@ -155,14 +147,10 @@
             <conditions>
                 <condition id="-14" name="Compare variable" sid="732187786751520" type="System">
                     <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Comparison">3</param>
+                    <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">3</param>
                 </condition>
-                <condition id="-14" name="Compare variable" sid="149002464405716" type="System">
-                    <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">2</param>
-                </condition>
+                <condition id="-4" name="Trigger once while true" sid="900596443799032" type="System" />
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="652182326042345" type="Audio">
@@ -177,14 +165,10 @@
             <conditions>
                 <condition id="-14" name="Compare variable" sid="697668658359483" type="System">
                     <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Comparison">3</param>
+                    <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">4</param>
                 </condition>
-                <condition id="-14" name="Compare variable" sid="118573823062178" type="System">
-                    <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">3</param>
-                </condition>
+                <condition id="-4" name="Trigger once while true" sid="735062546228873" type="System" />
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="248138430408704" type="Audio">
@@ -199,14 +183,10 @@
             <conditions>
                 <condition id="-14" name="Compare variable" sid="824534108019104" type="System">
                     <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Comparison">3</param>
+                    <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">5</param>
                 </condition>
-                <condition id="-14" name="Compare variable" sid="255344837438293" type="System">
-                    <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">4</param>
-                </condition>
+                <condition id="-4" name="Trigger once while true" sid="688561328561640" type="System" />
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="447252674290923" type="Audio">
@@ -221,14 +201,10 @@
             <conditions>
                 <condition id="-14" name="Compare variable" sid="958589342647949" type="System">
                     <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Comparison">3</param>
+                    <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">6</param>
                 </condition>
-                <condition id="-14" name="Compare variable" sid="291178488791004" type="System">
-                    <param id="0" name="Variable">Musique</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">5</param>
-                </condition>
+                <condition id="-4" name="Trigger once while true" sid="923628663643231" type="System" />
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="191349821134524" type="Audio">
@@ -236,6 +212,19 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">10</param>
                     <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="417745171890329">
+            <conditions>
+                <condition id="0" name="On ended" sid="757547214455637" type="Audio">
+                    <param id="0" name="Tag">&quot;music&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="267426439754156" type="System">
+                    <param id="0" name="Variable">Musique</param>
+                    <param id="1" name="Value">int(random(1,6))</param>
                 </action>
             </actions>
         </event-block>
