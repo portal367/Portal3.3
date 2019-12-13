@@ -24,7 +24,11 @@
                     <param id="0" name="Animation">&quot;OuverturePorte&quot;</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-2" name="Go to layout" sid="674917942375662" type="System">
+                    <param id="0" name="Layout">Fin</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="451047765454539">
             <conditions>

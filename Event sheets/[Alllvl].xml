@@ -126,7 +126,7 @@
                 <action id="0" name="Play" sid="172755896029759" type="Audio">
                     <param id="0" name="Audio file">Cara mia adio - Musique</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">10</param>
+                    <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                 </action>
             </actions>
@@ -144,7 +144,7 @@
                 <action id="0" name="Play" sid="969431705004350" type="Audio">
                     <param id="0" name="Audio file">Music of the sphere - Musique</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">10</param>
+                    <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                 </action>
             </actions>
@@ -162,7 +162,7 @@
                 <action id="0" name="Play" sid="652182326042345" type="Audio">
                     <param id="0" name="Audio file">Robots</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">10</param>
+                    <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                 </action>
             </actions>
@@ -180,7 +180,7 @@
                 <action id="0" name="Play" sid="248138430408704" type="Audio">
                     <param id="0" name="Audio file">Science is fun - Musique</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">10</param>
+                    <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                 </action>
             </actions>
@@ -198,7 +198,7 @@
                 <action id="0" name="Play" sid="447252674290923" type="Audio">
                     <param id="0" name="Audio file">Some assembly required</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">10</param>
+                    <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                 </action>
             </actions>
@@ -216,7 +216,7 @@
                 <action id="0" name="Play" sid="191349821134524" type="Audio">
                     <param id="0" name="Audio file">Want you gone - Musique</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">10</param>
+                    <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                 </action>
             </actions>
