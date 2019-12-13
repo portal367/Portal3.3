@@ -795,6 +795,10 @@
         <file name="Portail orange.ogg" />
         <file name="Ouverture porte.ogg" />
         <file name="Fermeture porte.ogg" />
+        <file name="Peinture bleue.ogg" />
+        <file name="Bravo.ogg" />
+        <file name="A bientot.ogg" />
+        <file name="Au revoir.ogg" />
     </sounds-folder>
     <music-folder>
         <file name="Cara mia adio - Musique.ogg" />
