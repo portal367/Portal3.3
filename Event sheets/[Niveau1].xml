@@ -14,6 +14,12 @@
                     <param id="0" name="Animation">&quot;Fermetureporte&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
+                <action id="0" name="Play" sid="577666748938249" type="Audio">
+                    <param id="0" name="Audio file">Fermeture porte</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="0" name="Spawn another object" sid="129527611697777" type="Sandra">
                     <param id="0" name="Object">dra</param>
                     <param id="1" name="Layer">0</param>
